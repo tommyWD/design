@@ -1,0 +1,48 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}svg:not(:root){overflow:hidden}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-input-placeholder{color:inherit;opacity:0.54}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.f-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.f-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.image{max-width:100%;height:auto}img{margin-bottom:-5px}a{color:inherit}
+.f-container:after,.f-container:before,.f-row:after,.f-row:before{content:"";display:table;clear:both}.f-col{float:left;width:100%}
+.f-col.s1{width:8.33333%}.f-col.s2{width:16.66666%}.f-col.s3{width:24.99999%}.f-col.s4{width:33.33333%}
+.f-col.s5{width:41.66666%}.f-col.s6{width:49.99999%}.f-col.s7{width:58.33333%}.f-col.s8{width:66.66666%}
+.f-col.s9{width:74.99999%}.f-col.s10{width:83.33333%}.f-col.s11{width:91.66666%}.f-col.s12{width:99.99999%}
+@media (min-width:601px){.f-col.m1{width:8.33333%}.f-col.m2{width:16.66666%}.f-col.m3,.f-quarter{width:24.99999%}.f-col.m4,.f-third{width:33.33333%}
+.f-col.m5{width:41.66666%}.f-col.m6,.f-half{width:49.99999%}.f-col.m7{width:58.33333%}.f-col.m8,.f-twothird{width:66.66666%}
+.f-col.m9,.f-threequarter{width:74.99999%}.f-col.m10{width:83.33333%}.f-col.m11{width:91.66666%}.f-col.m12{width:99.99999%}}
+@media (min-width:993px){.f-col.l1{width:8.33333%}.f-col.l2{width:16.66666%}.f-col.l3{width:24.99999%}.f-col.l4{width:33.33333%}
+.f-col.l5{width:41.66666%}.f-col.l6{width:49.99999%}.f-col.l7{width:58.33333%}.f-col.l8{width:66.66666%}
+.f-col.l9{width:74.99999%}.f-col.l10{width:83.33333%}.f-col.l11{width:91.66666%}.f-col.l12{width:99.99999%}}
+.f-content{max-width:980px;margin:auto}.f-rest{overflow:hidden}
+@media (max-width:600px){.f-hide-small{display:none!important}.f-mobile{display:block;width:100%!important;text-align: center}}
+@media (min-width:993px){.f-hide-large{display:none!important}}
+@media (max-width:992px) and (min-width:601px){.f-hide-medium{display:none!important}}
+.circle{border-radius:50%}
+.f-container{padding:0.01em 16px}.f-panel{margin-top:16px;margin-bottom:16px}
+.f-tiny{font-size:10px!important}.f-small{font-size:12px!important}.f-medium{font-size:15px!important}.f-large{font-size:18px!important}
+.f-xlarge{font-size:24px!important}.f-xxlarge{font-size:36px!important}.f-xxxlarge{font-size:48px!important}.f-jumbo{font-size:64px!important}
